@@ -1,0 +1,33 @@
+div[class*='qtip-'] {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 500px;
+    border-style: dashed;
+}
+
+.mCSB_container {
+    left: 0px !important;
+}
+
+.events2-notes-buttons {
+    display: none;
+}
+
+.amnp-segment {
+    visibility: hidden !important;
+    display: none !important;
+    width: 0px !important;
+}
+
+.amnp-segment-open {
+    visibility: visible !important;
+    display: inline-block !important;
+    width: 20px !important;
+}
+
+.amnp-day {
+    width: 100% !important;
+}
