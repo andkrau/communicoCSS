@@ -3,14 +3,13 @@
 
   "manifest_version": 3,
   "name": "STDL Communico",
-  "version": "0.2.6",
-  "description": "Modify CSS and JS within Communico",
+  "version": "0.2.7",
+  "description": "Modify CSS within Communico",
   "icons": {
     "128": "128.png"
    },
   "content_scripts": [{
     "css": ["styles.css"],
-    "js": ["content.js"],
     "matches": ["https://*.communico.co/*"]
   }]
 }
